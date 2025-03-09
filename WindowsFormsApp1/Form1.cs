@@ -33,7 +33,7 @@ namespace WindowsFormsApp1
 
         private void button17_Click(object sender, EventArgs e)
         {
-            Evaluate();
+            Dzialanie();
         }
 
         private void button19_Click(object sender, EventArgs e)
@@ -111,7 +111,7 @@ namespace WindowsFormsApp1
             textBox1.Text = currentInput;
         }
 
-        private void Evaluate()
+        private void Dzialanie()
         {
             if (operacja)
             {
@@ -147,7 +147,7 @@ namespace WindowsFormsApp1
 
         private void button15_Click(object sender, EventArgs e)
         {
-            if (operacja) { Evaluate(); }
+            if (operacja) { Dzialanie(); }
 
             Button button = (Button)sender;
             operation = button.Text;
@@ -160,7 +160,7 @@ namespace WindowsFormsApp1
 
         private void button16_Click(object sender, EventArgs e)
         {
-            if (operacja) { Evaluate(); }
+            if (operacja) { Dzialanie(); }
 
             Button button = (Button)sender;
             operation = button.Text;
@@ -171,7 +171,7 @@ namespace WindowsFormsApp1
 
         private void button13_Click(object sender, EventArgs e)
         {
-            if (operacja) { Evaluate(); }
+            if (operacja) { Dzialanie(); }
 
             Button button = (Button)sender;
             operation = button.Text;
@@ -182,7 +182,7 @@ namespace WindowsFormsApp1
 
         private void button14_Click(object sender, EventArgs e)
         {
-            if (operacja) { Evaluate(); }
+            if (operacja) { Dzialanie(); }
 
             Button button = (Button)sender;
             operation = button.Text;
